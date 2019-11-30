@@ -6,7 +6,6 @@ def fib():
 
 import types
 if type(fib()) == types.GeneratorType:
-
     counter = 0
     for n in fib():
         print(n)
