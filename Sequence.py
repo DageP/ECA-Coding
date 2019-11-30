@@ -1,7 +1,7 @@
 def fib():
     a, b = 1, 1
-    while 1:
-        yield a
+    while 1: #While this is true
+        yield a #only return a 
         a, b = b, a + b
 
 import types
