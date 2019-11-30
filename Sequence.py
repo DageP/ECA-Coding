@@ -6,7 +6,6 @@ def fib():
 
 import types
 if type(fib()) == types.GeneratorType:
-    print("Good, The fib function is a generator.")
 
     counter = 0
     for n in fib():
